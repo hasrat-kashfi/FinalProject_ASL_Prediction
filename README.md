@@ -1,1 +1,3 @@
 # FinalProject_ASL_Prediction
+
+This branch consists of the python code we used to merge the two models we used: our own Computer Vision ASL Classification model & FastText Language Model. It is designed to have real-time input and output. The input is gathered via a live video that captures sign language letters. The video captures are then used as input for out Computer Vision ASL model which then outputs the ASL letter shown in the capture. The output of the Computer Vision ASL model in turn acts at the input to the FastText Language Model which then uses it to predict possible word completions, however the input must consist of at least two characters for the model to be able to make predictions.
